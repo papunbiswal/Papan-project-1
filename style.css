@@ -1,3 +1,8 @@
+body{
+background-color: aliceblue;
+color: black;
+
+}
 img{
     display: block;
 }
@@ -107,3 +112,14 @@ img{
     color: inherit;
 }
   
+#toggle{
+    cursor: pointer;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+
